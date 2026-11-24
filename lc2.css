@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f172a;
+    color: #f8fafc;
+    padding: 16px;
+  }
+  
+  .caixa {
+    width: 100%;
+    max-width: 380px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 28px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  }
+  
+  .caixa h1 {
+    font-size: 1.6rem;
+    color: #f8fafc;
+  }
+  
+  .caixa p {
+    font-size: 0.92rem;
+    color: #cbd5e1;
+    line-height: 1.4;
+  }
+  
+  .caixa input {
+    width: 100%;
+    padding: 11px 12px;
+    border-radius: 8px;
+    border: 1px solid #475569;
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  .caixa input:focus {
+    border-color: #38bdf8;
+  }
+  
+  .caixa button {
+    padding: 11px 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .caixa button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  #mensagem {
+    min-height: 20px;
+    font-size: 0.88rem;
+    font-weight: bold;
+  }
+  
+  #mensagem.erro {
+    color: #f87171;
+  }
+  
+  #mensagem.sucesso {
+    color: #4ade80;
+  }
+  
+  .caixa small {
+    color: #94a3b8;
+    font-size: 0.8rem;
+  }
