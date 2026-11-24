@@ -20,5 +20,6 @@ function entrar() {
     } else {
       mensagem.textContent = "E-mail ou senha incorretos.";
       mensagem.classList.add("erro");
+      //pqp
     }
   }
